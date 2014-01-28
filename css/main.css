@@ -27,18 +27,16 @@ main h1{
 	padding: 10px;
 }
 
-ul{
-	list-style: none;
-	padding: 0;
-}
-
-li{
-	text-align: center;
+td{
+	background-color: yellow;
+	border-radius: 10px;
 	padding: 10px;
+	height: 100px;
+	width: 100px;
 }
 
-li:nth-child(odd){
-	background-color: #95a5a6;
+tr{
+	margin: 10px;
 }
 
 /* ======================================== */
