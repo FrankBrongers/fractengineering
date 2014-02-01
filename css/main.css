@@ -1,19 +1,51 @@
 body{
-	font-family: Helvetica, sans-serif;
+	font-family: 'Lato', Helvetica, sans-serif;
 }
 
 header{
-	background-color: #2980b9;
-	height: 100px;
+	background-color: white;
+	height: 150px;
 }
 
 header h1{
-	font-size: 35px;
+	font-size: 50px;
 	text-align: center;
-	line-height: 100px;
+	line-height: 150px;
+	font-weight: 300;
 }
 
 nav{
-	height: 50px;
-	background-color: #34495e;
+	height: 75px;
+	background-color: #2c3e50;
+}
+
+nav ul{
+	margin: auto;
+	display: table;
+}
+
+nav ul li{
+	display: inline-table;
+	line-height: 75px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+nav ul li a{
+	font-size: 20px;
+	color: white;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+.title{
+	background-color: aqua;
+}
+
+#orange{
+	background-color: #e67e22;
 }
